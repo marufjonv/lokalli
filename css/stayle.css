@@ -1,0 +1,146 @@
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* global style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212529;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1340px;
+  padding: 0 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  background-color: #000000;
+  padding: 12px 32px;
+  color: #ffffff;
+  border-radius: 25px;
+  &:hover {
+    opacity: 70%;
+  }
+  &:active {
+    opacity: 60%;
+  }
+}
+/* header start */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.menu-link {
+  color: #000000;
+  font-size: 15px;
+  line-height: 22.5px;
+  &:hover {
+    opacity: 70%;
+  }
+  &:active {
+    opacity: 60%;
+  }
+}
+
+/* header end */
+/* main hero start */
+
+.hero-container {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.small-subtitle {
+  color: #a6a6a6;
+  line-height: 19.2px;
+  margin-bottom: 5px;
+}
+.hero-title {
+  max-width: 554px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 64px;
+  color: #000;
+  line-height: 76.8px;
+  margin-bottom: 23px;
+}
+.hero-description {
+  max-width: 717px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #212529;
+  margin-bottom: 36px;
+}
+
+.btn-hero {
+  margin-left: 4px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+/* main hero end */
+/* offer section start */
+.offer-top {
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.offer-items {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.offer-item {
+  color: #686868;
+}
+/* offer section end */
