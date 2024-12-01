@@ -81,12 +81,13 @@ main {
   color: #000000;
   font-size: 15px;
   line-height: 22.5px;
-  &:hover {
-    opacity: 70%;
-  }
-  &:active {
-    opacity: 60%;
-  }
+}
+.menu-link:hover {
+  opacity: 70%;
+}
+
+.menu-link:active {
+  opacity: 60%;
 }
 
 /* header end */
@@ -125,6 +126,9 @@ main {
   background-color: #fff;
   color: #000;
   border: 1px solid #000;
+}
+
+.btn-hero {
 }
 /* main hero end */
 /* offer section start */
@@ -243,7 +247,7 @@ main {
   padding-top: 12px;
   width: 369px;
   height: 72px;
-  margin-bottom: ;
+  margin-bottom: 127.16px;
 }
 
 /* delivery end */
