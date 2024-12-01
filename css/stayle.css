@@ -40,11 +40,14 @@ main {
 }
 
 .container {
-  width: 100%;
-  max-width: 1340px;
-  padding: 0 50px;
   margin-left: auto;
   margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  max-width: 1270px;
+  background-color: #ffffff;
 }
 .btn {
   background-color: #000000;
@@ -143,4 +146,59 @@ main {
 .offer-item {
   color: #686868;
 }
+
+.main-title {
+  font-size: 61px;
+  line-height: 73.2px;
+  width: 1012px;
+  height: 293px;
+  margin-left: 121px;
+  margin-bottom: 90.11px;
+}
+.main-image {
+  width: 817px;
+  height: 385px;
+}
+
+.main-container {
+  width: 1240px;
+  height: 170px;
+  align-items: center;
+  justify-content: center;
+  display: table;
+  text-align: center;
+}
+
+.main-span {
+  font-size: 16px;
+  line-height: 19.2px;
+  color: #a6a6a6;
+  margin-bottom: 4px;
+}
+.main-title {
+  font-size: 61px;
+  line-height: 73.2px;
+}
+
+.main-list {
+  display: flex;
+  gap: 30px;
+}
+
+.main-image {
+  margin-bottom: 40.16px;
+}
+.main-image-title {
+  width: 251px;
+  height: 24px;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.main-description {
+  width: 369px;
+  height: 72px;
+}
+
 /* offer section end */
