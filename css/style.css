@@ -21,8 +21,8 @@
   &:hover {
     opacity: 60%;
   }
-  &:hover {
-    active: 60%;
+  &:active {
+    opacity: 60%;
   }
 }
 /* HEADER END */
