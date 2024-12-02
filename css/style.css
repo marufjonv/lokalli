@@ -1,0 +1,123 @@
+@import url("./global.css");
+@import url("./font.css");
+
+/* HEADER START */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.menu-link {
+  color: #000;
+  font-size: 25px;
+  line-height: 22.5px;
+  &:hover {
+    opacity: 60%;
+  }
+  &:hover {
+    active: 60%;
+  }
+}
+/* HEADER END */
+
+/* MAIN HERO START */
+.hero-container {
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.small-subtitle {
+  color: #a6a6a6;
+  line-height: 19.2px;
+  margin-bottom: 5px;
+}
+.hero-title {
+  max-width: 554px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-size: 64px;
+  color: #000;
+  line-height: 76.8px;
+  margin-bottom: 23px;
+}
+.hero-description {
+  max-width: 717px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #212529;
+  margin-bottom: 36px;
+}
+.btn-hero {
+  margin-left: 4px;
+  background-color: #ffffff;
+  color: #000;
+  border: 1px solid #000;
+}
+/* MAIN HERO END */
+/* OFFER SECTION START */
+.offer-top {
+  max-width: 1028px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.offer-items {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+.offer-item {
+  color: #686868;
+}
+/* OFFER SECTION END */
+.flex {
+  display: flex;
+  gap: 30px;
+}
+.left h2 {
+  width: 469px;
+  height: 147px;
+  font-family: "Roboto";
+  font-size: 61px;
+  font-weight: 400;
+  line-height: 73.2px;
+  margin-bottom: 23px;
+}
+.left p {
+  width: 517px;
+  height: 72px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212529;
+  margin-bottom: 16px;
+}
+.left button {
+  width: 153px;
+  height: 43px;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19.5px;
+  border-radius: 25px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.main_button-container {
+  display: flex;
+  gap: 166px;
+}
